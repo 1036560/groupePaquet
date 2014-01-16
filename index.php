@@ -53,14 +53,19 @@
   <!-- End Top Bar -->
  
   <div class="row">
-    <div class="large-12 columns">
+    <div class="large-10 columns">
  
     <!-- Content Slider -->
  
       <div class="row">
-        <div class="large-12 hide-for-small">
+        <div class="large-10 hide-for-small">
  
-          <div id="featured" data-orbit>
+          <div id="featured" data-orbit data-options="animation:slide;
+                  animation_speed:1000;
+                  pause_on_hover:false;
+                  animation_speed:500;
+                  navigation_arrows:true;
+                  bullets:true;">
               <img src="http://placehold.it/1200x200&text=Slide Image 1" alt="slide image">
               <img src="http://placehold.it/1200x200&text=Slide Image 2" alt="slide image">
               <img src="http://placehold.it/1200x200&text=Slide Image 3" alt="slide image">
@@ -76,7 +81,7 @@
       <div class="row">
         <div class="large-12 columns show-for-small">
  
-          <img src="http://placehold.it/1200x700&text=Mobile Header">
+          <img src="http://placehold.it/1200x900&text=Mobile Header">
  
         </div>
       </div><br>
@@ -91,28 +96,28 @@
             <!-- End Shows -->
  
  
-            <!-- Image -->
-		
+
 	            <div class="large-2 columns panel">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 				  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
 	            </div>
 				
 	            <div class="large-2 columns panel">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 				  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
 	            </div>
 	            <div class="large-2 columns panel">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 				  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
 	            </div>
 				<div class="large-2 columns panel">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 				  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
 	            </div>
 	            <div class="large-2 columns panel">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 				  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
+
 	            </div>
            </div>
         </div>
