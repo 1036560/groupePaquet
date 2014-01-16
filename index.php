@@ -91,9 +91,9 @@
         <div class="large-12 hide-for-small">
  
           <div id="featured" data-orbit>
-              <img src="http://placehold.it/1200x500&text=Slide Image 1" alt="slide image">
-              <img src="http://placehold.it/1200x500&text=Slide Image 2" alt="slide image">
-              <img src="http://placehold.it/1200x500&text=Slide Image 3" alt="slide image">
+              <img src="http://placehold.it/1200x200&text=Slide Image 1" alt="slide image">
+              <img src="http://placehold.it/1200x200&text=Slide Image 2" alt="slide image">
+              <img src="http://placehold.it/1200x200&text=Slide Image 3" alt="slide image">
             </div>
  
       </div>
@@ -123,33 +123,19 @@
  
             <!-- Image -->
  
-	            <div class="large-4 small-4 columns">
+	            <div class="large-2 columns">
 	              <img src="http://placehold.it/300x465&text=Image">
 	            </div>
-	            <div class="large-4 small-4 columns">
+	            <div class="large-2 columns">
 	              <img src="http://placehold.it/300x465&text=Image">
 	            </div>
-	            <div class="large-4 small-4 columns">
+	            <div class="large-2 columns">
 	              <img src="http://placehold.it/300x465&text=Image">
 	            </div>
-           </div>
-        </div>
-        <hr />
-        <div class="large-12 columns">
-          <div class="row">
-            <!-- Shows -->
-            <!-- End Shows -->
- 
- 
-            <!-- Image -->
- 
-	            <div class="large-4 small-4 columns">
+				<div class="large-2 columns">
 	              <img src="http://placehold.it/300x465&text=Image">
 	            </div>
-	            <div class="large-4 small-4 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
-	            </div>
-	            <div class="large-4 small-4 columns">
+	            <div class="large-2 columns">
 	              <img src="http://placehold.it/300x465&text=Image">
 	            </div>
            </div>
