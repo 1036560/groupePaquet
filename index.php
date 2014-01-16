@@ -132,7 +132,7 @@
 	            <div class="large-2 columns">
 	              <img src="http://placehold.it/300x465&text=Image">
 	            </div>
-				<div class="large-2 columns">
+				      <div class="large-2 columns">
 	              <img src="http://placehold.it/300x465&text=Image">
 	            </div>
 	            <div class="large-2 columns">
