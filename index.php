@@ -83,14 +83,19 @@
   <!-- End Top Bar -->
  
   <div class="row">
-    <div class="large-12 columns">
+    <div class="large-10 columns">
  
     <!-- Content Slider -->
  
       <div class="row">
-        <div class="large-12 hide-for-small">
+        <div class="large-10 hide-for-small">
  
-          <div id="featured" data-orbit>
+          <div id="featured" data-orbit data-options="animation:slide;
+                  animation_speed:1000;
+                  pause_on_hover:false;
+                  animation_speed:500;
+                  navigation_arrows:true;
+                  bullets:true;">
               <img src="http://placehold.it/1200x200&text=Slide Image 1" alt="slide image">
               <img src="http://placehold.it/1200x200&text=Slide Image 2" alt="slide image">
               <img src="http://placehold.it/1200x200&text=Slide Image 3" alt="slide image">
@@ -106,7 +111,7 @@
       <div class="row">
         <div class="large-12 columns show-for-small">
  
-          <img src="http://placehold.it/1200x700&text=Mobile Header">
+          <img src="http://placehold.it/1200x900&text=Mobile Header">
  
         </div>
       </div><br>
@@ -124,19 +129,19 @@
             <!-- Image -->
  
 	            <div class="large-2 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 	            </div>
 	            <div class="large-2 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 	            </div>
 	            <div class="large-2 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 	            </div>
 				      <div class="large-2 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 	            </div>
 	            <div class="large-2 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
+	              <img src="http://placehold.it/300x400&text=Image">
 	            </div>
            </div>
         </div>
