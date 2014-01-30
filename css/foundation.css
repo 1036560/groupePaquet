@@ -127,7 +127,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+  max-width: 100em;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -195,112 +195,92 @@ select {
 
   .small-push-1 {
     position: relative;
-    left: 8.33333%;
+    left: 10%;
     right: auto; }
 
   .small-pull-1 {
     position: relative;
-    right: 8.33333%;
+    right: 10%;
     left: auto; }
 
   .small-push-2 {
     position: relative;
-    left: 16.66667%;
+    left: 20%;
     right: auto; }
 
   .small-pull-2 {
     position: relative;
-    right: 16.66667%;
+    right: 20%;
     left: auto; }
 
   .small-push-3 {
     position: relative;
-    left: 25%;
+    left: 30%;
     right: auto; }
 
   .small-pull-3 {
     position: relative;
-    right: 25%;
+    right: 30%;
     left: auto; }
 
   .small-push-4 {
     position: relative;
-    left: 33.33333%;
+    left: 40%;
     right: auto; }
 
   .small-pull-4 {
     position: relative;
-    right: 33.33333%;
+    right: 40%;
     left: auto; }
 
   .small-push-5 {
     position: relative;
-    left: 41.66667%;
+    left: 50%;
     right: auto; }
 
   .small-pull-5 {
     position: relative;
-    right: 41.66667%;
+    right: 50%;
     left: auto; }
 
   .small-push-6 {
     position: relative;
-    left: 50%;
+    left: 60%;
     right: auto; }
 
   .small-pull-6 {
     position: relative;
-    right: 50%;
+    right: 60%;
     left: auto; }
 
   .small-push-7 {
     position: relative;
-    left: 58.33333%;
+    left: 70%;
     right: auto; }
 
   .small-pull-7 {
     position: relative;
-    right: 58.33333%;
+    right: 70%;
     left: auto; }
 
   .small-push-8 {
     position: relative;
-    left: 66.66667%;
+    left: 80%;
     right: auto; }
 
   .small-pull-8 {
     position: relative;
-    right: 66.66667%;
+    right: 80%;
     left: auto; }
 
   .small-push-9 {
     position: relative;
-    left: 75%;
+    left: 90%;
     right: auto; }
 
   .small-pull-9 {
     position: relative;
-    right: 75%;
-    left: auto; }
-
-  .small-push-10 {
-    position: relative;
-    left: 83.33333%;
-    right: auto; }
-
-  .small-pull-10 {
-    position: relative;
-    right: 83.33333%;
-    left: auto; }
-
-  .small-push-11 {
-    position: relative;
-    left: 91.66667%;
-    right: auto; }
-
-  .small-pull-11 {
-    position: relative;
-    right: 91.66667%;
+    right: 90%;
     left: auto; }
 
   .column,
@@ -312,49 +292,41 @@ select {
 
   .small-1 {
     position: relative;
-    width: 8.33333%; }
+    width: 10%; }
 
   .small-2 {
     position: relative;
-    width: 16.66667%; }
+    width: 20%; }
 
   .small-3 {
     position: relative;
-    width: 25%; }
+    width: 30%; }
 
   .small-4 {
     position: relative;
-    width: 33.33333%; }
+    width: 40%; }
 
   .small-5 {
     position: relative;
-    width: 41.66667%; }
+    width: 50%; }
 
   .small-6 {
     position: relative;
-    width: 50%; }
+    width: 60%; }
 
   .small-7 {
     position: relative;
-    width: 58.33333%; }
+    width: 70%; }
 
   .small-8 {
     position: relative;
-    width: 66.66667%; }
+    width: 80%; }
 
   .small-9 {
     position: relative;
-    width: 75%; }
+    width: 90%; }
 
   .small-10 {
-    position: relative;
-    width: 83.33333%; }
-
-  .small-11 {
-    position: relative;
-    width: 91.66667%; }
-
-  .small-12 {
     position: relative;
     width: 100%; }
 
@@ -370,43 +342,35 @@ select {
 
   .small-offset-1 {
     position: relative;
-    margin-left: 8.33333% !important; }
+    margin-left: 10% !important; }
 
   .small-offset-2 {
     position: relative;
-    margin-left: 16.66667% !important; }
+    margin-left: 20% !important; }
 
   .small-offset-3 {
     position: relative;
-    margin-left: 25% !important; }
+    margin-left: 30% !important; }
 
   .small-offset-4 {
     position: relative;
-    margin-left: 33.33333% !important; }
+    margin-left: 40% !important; }
 
   .small-offset-5 {
     position: relative;
-    margin-left: 41.66667% !important; }
+    margin-left: 50% !important; }
 
   .small-offset-6 {
     position: relative;
-    margin-left: 50% !important; }
+    margin-left: 60% !important; }
 
   .small-offset-7 {
     position: relative;
-    margin-left: 58.33333% !important; }
+    margin-left: 70% !important; }
 
   .small-offset-8 {
     position: relative;
-    margin-left: 66.66667% !important; }
-
-  .small-offset-9 {
-    position: relative;
-    margin-left: 75% !important; }
-
-  .small-offset-10 {
-    position: relative;
-    margin-left: 83.33333% !important; }
+    margin-left: 80% !important; }
 
   .column.small-reset-order,
   .columns.small-reset-order {
@@ -435,112 +399,92 @@ select {
 
   .medium-push-1 {
     position: relative;
-    left: 8.33333%;
+    left: 10%;
     right: auto; }
 
   .medium-pull-1 {
     position: relative;
-    right: 8.33333%;
+    right: 10%;
     left: auto; }
 
   .medium-push-2 {
     position: relative;
-    left: 16.66667%;
+    left: 20%;
     right: auto; }
 
   .medium-pull-2 {
     position: relative;
-    right: 16.66667%;
+    right: 20%;
     left: auto; }
 
   .medium-push-3 {
     position: relative;
-    left: 25%;
+    left: 30%;
     right: auto; }
 
   .medium-pull-3 {
     position: relative;
-    right: 25%;
+    right: 30%;
     left: auto; }
 
   .medium-push-4 {
     position: relative;
-    left: 33.33333%;
+    left: 40%;
     right: auto; }
 
   .medium-pull-4 {
     position: relative;
-    right: 33.33333%;
+    right: 40%;
     left: auto; }
 
   .medium-push-5 {
     position: relative;
-    left: 41.66667%;
+    left: 50%;
     right: auto; }
 
   .medium-pull-5 {
     position: relative;
-    right: 41.66667%;
+    right: 50%;
     left: auto; }
 
   .medium-push-6 {
     position: relative;
-    left: 50%;
+    left: 60%;
     right: auto; }
 
   .medium-pull-6 {
     position: relative;
-    right: 50%;
+    right: 60%;
     left: auto; }
 
   .medium-push-7 {
     position: relative;
-    left: 58.33333%;
+    left: 70%;
     right: auto; }
 
   .medium-pull-7 {
     position: relative;
-    right: 58.33333%;
+    right: 70%;
     left: auto; }
 
   .medium-push-8 {
     position: relative;
-    left: 66.66667%;
+    left: 80%;
     right: auto; }
 
   .medium-pull-8 {
     position: relative;
-    right: 66.66667%;
+    right: 80%;
     left: auto; }
 
   .medium-push-9 {
     position: relative;
-    left: 75%;
+    left: 90%;
     right: auto; }
 
   .medium-pull-9 {
     position: relative;
-    right: 75%;
-    left: auto; }
-
-  .medium-push-10 {
-    position: relative;
-    left: 83.33333%;
-    right: auto; }
-
-  .medium-pull-10 {
-    position: relative;
-    right: 83.33333%;
-    left: auto; }
-
-  .medium-push-11 {
-    position: relative;
-    left: 91.66667%;
-    right: auto; }
-
-  .medium-pull-11 {
-    position: relative;
-    right: 91.66667%;
+    right: 90%;
     left: auto; }
 
   .column,
@@ -552,49 +496,41 @@ select {
 
   .medium-1 {
     position: relative;
-    width: 8.33333%; }
+    width: 10%; }
 
   .medium-2 {
     position: relative;
-    width: 16.66667%; }
+    width: 20%; }
 
   .medium-3 {
     position: relative;
-    width: 25%; }
+    width: 30%; }
 
   .medium-4 {
     position: relative;
-    width: 33.33333%; }
+    width: 40%; }
 
   .medium-5 {
     position: relative;
-    width: 41.66667%; }
+    width: 50%; }
 
   .medium-6 {
     position: relative;
-    width: 50%; }
+    width: 60%; }
 
   .medium-7 {
     position: relative;
-    width: 58.33333%; }
+    width: 70%; }
 
   .medium-8 {
     position: relative;
-    width: 66.66667%; }
+    width: 80%; }
 
   .medium-9 {
     position: relative;
-    width: 75%; }
+    width: 90%; }
 
   .medium-10 {
-    position: relative;
-    width: 83.33333%; }
-
-  .medium-11 {
-    position: relative;
-    width: 91.66667%; }
-
-  .medium-12 {
     position: relative;
     width: 100%; }
 
@@ -610,43 +546,35 @@ select {
 
   .medium-offset-1 {
     position: relative;
-    margin-left: 8.33333% !important; }
+    margin-left: 10% !important; }
 
   .medium-offset-2 {
     position: relative;
-    margin-left: 16.66667% !important; }
+    margin-left: 20% !important; }
 
   .medium-offset-3 {
     position: relative;
-    margin-left: 25% !important; }
+    margin-left: 30% !important; }
 
   .medium-offset-4 {
     position: relative;
-    margin-left: 33.33333% !important; }
+    margin-left: 40% !important; }
 
   .medium-offset-5 {
     position: relative;
-    margin-left: 41.66667% !important; }
+    margin-left: 50% !important; }
 
   .medium-offset-6 {
     position: relative;
-    margin-left: 50% !important; }
+    margin-left: 60% !important; }
 
   .medium-offset-7 {
     position: relative;
-    margin-left: 58.33333% !important; }
+    margin-left: 70% !important; }
 
   .medium-offset-8 {
     position: relative;
-    margin-left: 66.66667% !important; }
-
-  .medium-offset-9 {
-    position: relative;
-    margin-left: 75% !important; }
-
-  .medium-offset-10 {
-    position: relative;
-    margin-left: 83.33333% !important; }
+    margin-left: 80% !important; }
 
   .column.medium-reset-order,
   .columns.medium-reset-order {
@@ -658,112 +586,92 @@ select {
 
   .push-1 {
     position: relative;
-    left: 8.33333%;
+    left: 10%;
     right: auto; }
 
   .pull-1 {
     position: relative;
-    right: 8.33333%;
+    right: 10%;
     left: auto; }
 
   .push-2 {
     position: relative;
-    left: 16.66667%;
+    left: 20%;
     right: auto; }
 
   .pull-2 {
     position: relative;
-    right: 16.66667%;
+    right: 20%;
     left: auto; }
 
   .push-3 {
     position: relative;
-    left: 25%;
+    left: 30%;
     right: auto; }
 
   .pull-3 {
     position: relative;
-    right: 25%;
+    right: 30%;
     left: auto; }
 
   .push-4 {
     position: relative;
-    left: 33.33333%;
+    left: 40%;
     right: auto; }
 
   .pull-4 {
     position: relative;
-    right: 33.33333%;
+    right: 40%;
     left: auto; }
 
   .push-5 {
     position: relative;
-    left: 41.66667%;
+    left: 50%;
     right: auto; }
 
   .pull-5 {
     position: relative;
-    right: 41.66667%;
+    right: 50%;
     left: auto; }
 
   .push-6 {
     position: relative;
-    left: 50%;
+    left: 60%;
     right: auto; }
 
   .pull-6 {
     position: relative;
-    right: 50%;
+    right: 60%;
     left: auto; }
 
   .push-7 {
     position: relative;
-    left: 58.33333%;
+    left: 70%;
     right: auto; }
 
   .pull-7 {
     position: relative;
-    right: 58.33333%;
+    right: 70%;
     left: auto; }
 
   .push-8 {
     position: relative;
-    left: 66.66667%;
+    left: 80%;
     right: auto; }
 
   .pull-8 {
     position: relative;
-    right: 66.66667%;
+    right: 80%;
     left: auto; }
 
   .push-9 {
     position: relative;
-    left: 75%;
+    left: 90%;
     right: auto; }
 
   .pull-9 {
     position: relative;
-    right: 75%;
-    left: auto; }
-
-  .push-10 {
-    position: relative;
-    left: 83.33333%;
-    right: auto; }
-
-  .pull-10 {
-    position: relative;
-    right: 83.33333%;
-    left: auto; }
-
-  .push-11 {
-    position: relative;
-    left: 91.66667%;
-    right: auto; }
-
-  .pull-11 {
-    position: relative;
-    right: 91.66667%;
+    right: 90%;
     left: auto; } }
 @media only screen and (min-width: 64.063em) {
   .column.large-centered,
@@ -785,112 +693,92 @@ select {
 
   .large-push-1 {
     position: relative;
-    left: 8.33333%;
+    left: 10%;
     right: auto; }
 
   .large-pull-1 {
     position: relative;
-    right: 8.33333%;
+    right: 10%;
     left: auto; }
 
   .large-push-2 {
     position: relative;
-    left: 16.66667%;
+    left: 20%;
     right: auto; }
 
   .large-pull-2 {
     position: relative;
-    right: 16.66667%;
+    right: 20%;
     left: auto; }
 
   .large-push-3 {
     position: relative;
-    left: 25%;
+    left: 30%;
     right: auto; }
 
   .large-pull-3 {
     position: relative;
-    right: 25%;
+    right: 30%;
     left: auto; }
 
   .large-push-4 {
     position: relative;
-    left: 33.33333%;
+    left: 40%;
     right: auto; }
 
   .large-pull-4 {
     position: relative;
-    right: 33.33333%;
+    right: 40%;
     left: auto; }
 
   .large-push-5 {
     position: relative;
-    left: 41.66667%;
+    left: 50%;
     right: auto; }
 
   .large-pull-5 {
     position: relative;
-    right: 41.66667%;
+    right: 50%;
     left: auto; }
 
   .large-push-6 {
     position: relative;
-    left: 50%;
+    left: 60%;
     right: auto; }
 
   .large-pull-6 {
     position: relative;
-    right: 50%;
+    right: 60%;
     left: auto; }
 
   .large-push-7 {
     position: relative;
-    left: 58.33333%;
+    left: 70%;
     right: auto; }
 
   .large-pull-7 {
     position: relative;
-    right: 58.33333%;
+    right: 70%;
     left: auto; }
 
   .large-push-8 {
     position: relative;
-    left: 66.66667%;
+    left: 80%;
     right: auto; }
 
   .large-pull-8 {
     position: relative;
-    right: 66.66667%;
+    right: 80%;
     left: auto; }
 
   .large-push-9 {
     position: relative;
-    left: 75%;
+    left: 90%;
     right: auto; }
 
   .large-pull-9 {
     position: relative;
-    right: 75%;
-    left: auto; }
-
-  .large-push-10 {
-    position: relative;
-    left: 83.33333%;
-    right: auto; }
-
-  .large-pull-10 {
-    position: relative;
-    right: 83.33333%;
-    left: auto; }
-
-  .large-push-11 {
-    position: relative;
-    left: 91.66667%;
-    right: auto; }
-
-  .large-pull-11 {
-    position: relative;
-    right: 91.66667%;
+    right: 90%;
     left: auto; }
 
   .column,
@@ -902,49 +790,41 @@ select {
 
   .large-1 {
     position: relative;
-    width: 8.33333%; }
+    width: 10%; }
 
   .large-2 {
     position: relative;
-    width: 16.66667%; }
+    width: 20%; }
 
   .large-3 {
     position: relative;
-    width: 25%; }
+    width: 30%; }
 
   .large-4 {
     position: relative;
-    width: 33.33333%; }
+    width: 40%; }
 
   .large-5 {
     position: relative;
-    width: 41.66667%; }
+    width: 50%; }
 
   .large-6 {
     position: relative;
-    width: 50%; }
+    width: 60%; }
 
   .large-7 {
     position: relative;
-    width: 58.33333%; }
+    width: 70%; }
 
   .large-8 {
     position: relative;
-    width: 66.66667%; }
+    width: 80%; }
 
   .large-9 {
     position: relative;
-    width: 75%; }
+    width: 90%; }
 
   .large-10 {
-    position: relative;
-    width: 83.33333%; }
-
-  .large-11 {
-    position: relative;
-    width: 91.66667%; }
-
-  .large-12 {
     position: relative;
     width: 100%; }
 
@@ -960,43 +840,35 @@ select {
 
   .large-offset-1 {
     position: relative;
-    margin-left: 8.33333% !important; }
+    margin-left: 10% !important; }
 
   .large-offset-2 {
     position: relative;
-    margin-left: 16.66667% !important; }
+    margin-left: 20% !important; }
 
   .large-offset-3 {
     position: relative;
-    margin-left: 25% !important; }
+    margin-left: 30% !important; }
 
   .large-offset-4 {
     position: relative;
-    margin-left: 33.33333% !important; }
+    margin-left: 40% !important; }
 
   .large-offset-5 {
     position: relative;
-    margin-left: 41.66667% !important; }
+    margin-left: 50% !important; }
 
   .large-offset-6 {
     position: relative;
-    margin-left: 50% !important; }
+    margin-left: 60% !important; }
 
   .large-offset-7 {
     position: relative;
-    margin-left: 58.33333% !important; }
+    margin-left: 70% !important; }
 
   .large-offset-8 {
     position: relative;
-    margin-left: 66.66667% !important; }
-
-  .large-offset-9 {
-    position: relative;
-    margin-left: 75% !important; }
-
-  .large-offset-10 {
-    position: relative;
-    margin-left: 83.33333% !important; }
+    margin-left: 80% !important; }
 
   .column.large-reset-order,
   .columns.large-reset-order {
@@ -1008,112 +880,92 @@ select {
 
   .push-1 {
     position: relative;
-    left: 8.33333%;
+    left: 10%;
     right: auto; }
 
   .pull-1 {
     position: relative;
-    right: 8.33333%;
+    right: 10%;
     left: auto; }
 
   .push-2 {
     position: relative;
-    left: 16.66667%;
+    left: 20%;
     right: auto; }
 
   .pull-2 {
     position: relative;
-    right: 16.66667%;
+    right: 20%;
     left: auto; }
 
   .push-3 {
     position: relative;
-    left: 25%;
+    left: 30%;
     right: auto; }
 
   .pull-3 {
     position: relative;
-    right: 25%;
+    right: 30%;
     left: auto; }
 
   .push-4 {
     position: relative;
-    left: 33.33333%;
+    left: 40%;
     right: auto; }
 
   .pull-4 {
     position: relative;
-    right: 33.33333%;
+    right: 40%;
     left: auto; }
 
   .push-5 {
     position: relative;
-    left: 41.66667%;
+    left: 50%;
     right: auto; }
 
   .pull-5 {
     position: relative;
-    right: 41.66667%;
+    right: 50%;
     left: auto; }
 
   .push-6 {
     position: relative;
-    left: 50%;
+    left: 60%;
     right: auto; }
 
   .pull-6 {
     position: relative;
-    right: 50%;
+    right: 60%;
     left: auto; }
 
   .push-7 {
     position: relative;
-    left: 58.33333%;
+    left: 70%;
     right: auto; }
 
   .pull-7 {
     position: relative;
-    right: 58.33333%;
+    right: 70%;
     left: auto; }
 
   .push-8 {
     position: relative;
-    left: 66.66667%;
+    left: 80%;
     right: auto; }
 
   .pull-8 {
     position: relative;
-    right: 66.66667%;
+    right: 80%;
     left: auto; }
 
   .push-9 {
     position: relative;
-    left: 75%;
+    left: 90%;
     right: auto; }
 
   .pull-9 {
     position: relative;
-    right: 75%;
-    left: auto; }
-
-  .push-10 {
-    position: relative;
-    left: 83.33333%;
-    right: auto; }
-
-  .pull-10 {
-    position: relative;
-    right: 83.33333%;
-    left: auto; }
-
-  .push-11 {
-    position: relative;
-    left: 91.66667%;
-    right: auto; }
-
-  .pull-11 {
-    position: relative;
-    right: 91.66667%;
+    right: 90%;
     left: auto; } }
 meta.foundation-mq-topbar {
   font-family: "/only screen and (min-width:40.063em)/";
@@ -1265,12 +1117,12 @@ meta.foundation-mq-topbar {
     font-weight: normal;
     background: #333333; }
     .top-bar-section ul li > a.button {
-      background: #c60f13;
+      background: #2ba6cb;
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px; }
       .top-bar-section ul li > a.button:hover {
-        background: #910b0e; }
+        background: #1f7994; }
     .top-bar-section ul li > a.button.secondary {
       background: #e9e9e9; }
       .top-bar-section ul li > a.button.secondary:hover {
@@ -1287,10 +1139,10 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #c60f13;
+    background: #2ba6cb;
     color: white; }
     .top-bar-section ul li.active > a:hover {
-      background: #aa0d10; }
+      background: #258faf; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
@@ -1372,7 +1224,7 @@ meta.foundation-mq-topbar {
       background: #333333; }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5em;
+    max-width: 100em;
     margin: 0 auto;
     margin-bottom: 0; }
 
@@ -1466,7 +1318,7 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #c60f13;
+    background: #2ba6cb;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block; } }
@@ -1492,7 +1344,7 @@ meta.foundation-mq-topbar {
     .breadcrumbs > * a,
     .breadcrumbs > * span {
       text-transform: uppercase;
-      color: #c60f13; }
+      color: #2ba6cb; }
     .breadcrumbs > *.current {
       cursor: default;
       color: #333333; }
@@ -1529,8 +1381,8 @@ meta.foundation-mq-topbar {
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
-  background-color: #c60f13;
-  border-color: #aa0d10;
+  background-color: #2ba6cb;
+  border-color: #258faf;
   color: white; }
   .alert-box .close {
     font-size: 1.375rem;
@@ -1604,8 +1456,8 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #c60f13;
-  border-color: #9e0c0f;
+  background-color: #2ba6cb;
+  border-color: #2285a2;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
@@ -1616,7 +1468,7 @@ button, .button {
   border: none;
   font-weight: normal !important; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #9e0c0f; }
+    background-color: #2285a2; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1681,19 +1533,19 @@ button, .button {
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #c60f13;
-    border-color: #9e0c0f;
+    background-color: #2ba6cb;
+    border-color: #2285a2;
     color: white;
     cursor: default;
     opacity: 0.7;
     -webkit-box-shadow: none;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #9e0c0f; }
+      background-color: #2285a2; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #c60f13; }
+      background-color: #2ba6cb; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e9e9e9;
       border-color: #bababa;
@@ -1896,10 +1748,10 @@ button, .button {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #fabcbd;
+    border-color: #c5e8f3;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #feeeef; }
+    background: #f2fafc; }
     .panel.callout > :first-child {
       margin-top: 0; }
     .panel.callout > :last-child {
@@ -1912,7 +1764,7 @@ button, .button {
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
     .panel.callout a {
-      color: #c60f13; }
+      color: #2ba6cb; }
   .panel.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
@@ -1974,8 +1826,8 @@ button, .button {
   -moz-transition: all 200ms ease-out;
   transition: all 200ms ease-out; }
   .th:hover, .th:focus {
-    -webkit-box-shadow: 0 0 6px 1px rgba(198, 15, 19, 0.5);
-    box-shadow: 0 0 6px 1px rgba(198, 15, 19, 0.5); }
+    -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
+    box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5); }
   .th.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
@@ -2383,12 +2235,12 @@ ul.pagination {
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
       background: transparent; }
     ul.pagination li.current a {
-      background: #c60f13;
+      background: #2ba6cb;
       color: white;
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-        background: #c60f13; }
+        background: #2ba6cb; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -2412,7 +2264,7 @@ ul.pagination {
     font-size: 0.875rem; }
     .side-nav li a {
       display: block;
-      color: #c60f13; }
+      color: #2ba6cb; }
     .side-nav li.active > a:first-child {
       color: #4d4d4d;
       font-weight: normal;
@@ -2478,11 +2330,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #c60f13;
+  color: #2ba6cb;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #aa0d10; }
+    color: #258faf; }
   a img {
     border: none; }
 
@@ -2924,8 +2776,8 @@ blockquote p {
   font-weight: bold;
   color: #333333; }
   .has-tip:hover, .has-tip:focus {
-    border-bottom: dotted 1px #590709;
-    color: #c60f13; }
+    border-bottom: dotted 1px #134b5b;
+    color: #2ba6cb; }
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
 
@@ -2954,8 +2806,8 @@ blockquote p {
     border-color: transparent transparent #333333 transparent;
     top: -10px; }
   .tooltip.opened {
-    color: #c60f13 !important;
-    border-bottom: dotted 1px #590709 !important; }
+    color: #2ba6cb !important;
+    border-bottom: dotted 1px #134b5b !important; }
 
 .tap-to-close {
   display: block;
@@ -3155,7 +3007,7 @@ blockquote p {
   padding: 0.125rem;
   margin-bottom: 0.625rem; }
   .progress .meter {
-    background: #c60f13;
+    background: #2ba6cb;
     height: 100%;
     display: block; }
   .progress.secondary .meter {
@@ -3219,7 +3071,7 @@ blockquote p {
       -webkit-border-radius: 3px;
       border-radius: 3px;
       font-weight: normal;
-      background: #c60f13;
+      background: #2ba6cb;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
@@ -3394,7 +3246,7 @@ blockquote p {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
-  background-color: #c60f13;
+  background-color: #2ba6cb;
   color: white; }
   .label.radius {
     -webkit-border-radius: 3px;

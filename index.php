@@ -2,6 +2,8 @@
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en" >
 
+<?php include("Ressource/ArrayLien.php");
+	  include("Ressource/ArrayNom.php");?>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +17,7 @@
   <link rel="stylesheet" href="css/app.css">
 
   <script src="js/vendor/modernizr.js"></script>
-
+  <script src="js/jquery-1.11.0.min.js"></script>
 </head>
 <body>
 	    <!-- Navigation -->
@@ -25,7 +27,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#">
+          <a href="index.php">
             Groupe Paquet
           </a>
         </h1>
@@ -37,44 +39,14 @@
       <!-- Right Nav Section -->
       <ul class="right">
         <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Accueil</a>
-          <ul class="dropdown">
-            <li><label>Section Name</label></li>
-            <li class="has-dropdown">
-              <a href="#" class="">Has Dropdown, Level 1</a>
-              <ul class="dropdown">
-                <li><a href="#">Dropdown Options</a></li>
-                <li><a href="#">Dropdown Options</a></li>
-                <li><a href="#">Level 2</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><label>Section Name</label></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><a href="#">See all →</a></li>
-          </ul>
+        <li>
+          <a href="index.php">Accueil</a>
         </li>
         <li class="divider"></li>
         <li><a href="#">Demande d'emploi</a></li>
         <li class="divider"></li>
-        <li class="has-dropdown">
+        <li>
           <a href="#">Demande de commandite</a>
-          <ul class="dropdown">
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><a href="#">See all →</a></li>
-          </ul>
         </li>
       </ul>
     </section>
@@ -83,17 +55,22 @@
   <!-- End Top Bar -->
  
   <div class="row">
-    <div class="large-12 columns">
+    <div class="large-10 columns">
  
     <!-- Content Slider -->
  
       <div class="row">
-        <div class="large-12 hide-for-small">
+        <div class="large-10 hide-for-small">
  
-          <div id="featured" data-orbit>
-              <img src="http://placehold.it/1200x500&text=Slide Image 1" alt="slide image">
-              <img src="http://placehold.it/1200x500&text=Slide Image 2" alt="slide image">
-              <img src="http://placehold.it/1200x500&text=Slide Image 3" alt="slide image">
+          <div id="featured" data-orbit data-options="animation:slide;
+                  animation_speed:1000;
+                  pause_on_hover:false;
+                  animation_speed:500;
+                  navigation_arrows:true;
+                  bullets:true;">
+              <img src="http://placehold.it/1200x200&text=Slide Image 1" alt="slide image">
+              <img src="http://placehold.it/1200x200&text=Slide Image 2" alt="slide image">
+              <img src="http://placehold.it/1200x200&text=Slide Image 3" alt="slide image">
             </div>
  
       </div>
@@ -106,7 +83,7 @@
       <div class="row">
         <div class="large-12 columns show-for-small">
  
-          <img src="http://placehold.it/1200x700&text=Mobile Header">
+          <img src="http://placehold.it/1200x900&text=Mobile Header">
  
         </div>
       </div><br>
@@ -121,37 +98,44 @@
             <!-- End Shows -->
  
  
-            <!-- Image -->
- 
-	            <div class="large-4 small-4 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
-	            </div>
-	            <div class="large-4 small-4 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
-	            </div>
-	            <div class="large-4 small-4 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
-	            </div>
-           </div>
-        </div>
-        <hr />
-        <div class="large-12 columns">
-          <div class="row">
-            <!-- Shows -->
-            <!-- End Shows -->
- 
- 
-            <!-- Image -->
- 
-	            <div class="large-4 small-4 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
-	            </div>
-	            <div class="large-4 small-4 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
-	            </div>
-	            <div class="large-4 small-4 columns">
-	              <img src="http://placehold.it/300x465&text=Image">
-	            </div>
+				<a href="<?php echo $lien['paquetnissan']; ?>">
+					<div id="cons1" class="large-2 columns panel">
+					  <h4><?php echo $nom['paquetnissan']; ?></h4>
+					  <img src="http://placehold.it/300x400&text=Image">
+					  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
+					</div>
+				</a>
+				
+				<a href="<?php echo $lien['paquetmitsubishi']; ?>">
+					<div id="cons2" class="large-2 columns panel">
+					  <h4><?php echo $nom['paquetmitsubishi']; ?></h4>
+					  <img src="http://placehold.it/300x400&text=Image">
+					  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
+					</div>
+					
+				<a href="<?php echo $lien['montmagnynissan']; ?>">
+					<div id="cons3" class="large-2 columns panel">
+					  <h4><?php echo $nom['montmagnynissan']; ?></h4>
+					  <img src="http://placehold.it/300x400&text=Image">
+					  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
+					</div>
+				</a>
+					
+				<a href="<?php echo $lien['kiamontmagny']; ?>">
+					<div id="cons4" class="large-2 columns panel">
+					  <h4><?php echo $nom['kiamontmagny']; ?></h4>
+					  <img src="http://placehold.it/300x400&text=Image">
+					  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
+					</div>
+				</a>	
+					
+				<a href="<?php echo $lien['pneuspaquetlevis']; ?>">
+					<div id="cons5" class="large-2 columns panel">
+					  <h4><?php echo $nom['pneuspaquetlevis']; ?></h4>
+					  <img src="http://placehold.it/300x400&text=Image">
+					  <p>Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus haerebis et repentinus, hortatore illo hesterno clientes numerando, qui sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in amicitiam si te salutandi adsiduitati dederis triennio indiscretus et per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi esses interrogatus et quo tandem miser discesseris, aetatem omnem frustra in stipite conteres summittendo. </p>
+					</div>
+				</a>
            </div>
         </div>
       </div>
@@ -208,3 +192,30 @@
   </script>
 </body>
 </html>
+
+
+<script>
+
+for(var i = 1; i <= 5; i++) 
+{
+	
+	test(i);
+}
+
+function test(i) {
+	$( "#cons"+ i)
+	  .mouseover(function() {
+			$("#cons"+i).css("background-color","#919191");
+	  })
+	  .mouseout(function() {
+			$("#cons"+i.toString()).css("background-color","#f2f2f2");
+	  });
+}
+
+
+
+
+
+
+</script>
+ 
