@@ -40,13 +40,13 @@
       <ul class="right">
         <li class="divider"></li>
         <li>
-          <a href="index.php">Accueil</a>
+          <a href="<?php echo $lienMenu['accueil']; ?>"><?php echo $nomMenu['accueil']; ?></a>
         </li>
         <li class="divider"></li>
-        <li><a href="#">Demande d'emploi</a></li>
+        <li><a href="<?php echo $lienMenu['demandeEmploi']; ?>"><?php echo $nomMenu['demandeEmploi']; ?></a></li>
         <li class="divider"></li>
         <li>
-          <a href="#">Demande de commandite</a>
+          <a href="<?php echo $lienMenu['demandeCommandite']; ?>"><?php echo $nomMenu['demandeCommandite']; ?></a>
         </li>
       </ul>
     </section>
@@ -151,16 +151,7 @@
             <div class="row">
  
               <div class="large-6 columns">
-                  <p>© Copyright no one at all. Go to town.</p>
-              </div>
- 
-              <div class="large-6 small-12 columns">
-                  <ul class="inline-list right">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                  </ul>
+                  <p>© Copyright Groupe Paquet</p>
               </div>
  
             </div>

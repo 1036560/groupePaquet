@@ -6,6 +6,13 @@ $lien = array(
 		'kiamontmagny' => 'http://www.kiamontmagny.com/',
 		'pneuspaquetlevis' => 'http://www.pneuspaquetlevis.com/',
 		);
+		
+$lienMenu = array(
+		'accueil' => 'http://localhost/groupepaquet/index.php',
+		'demandeEmploi' => '',
+		'demandeCommandite' => ''
+		);
+
 
 
 ?>

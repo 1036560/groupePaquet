@@ -6,6 +6,12 @@ $nom = array(
 		'kiamontmagny' => 'Kia Montmagny',
 		'pneuspaquetlevis' => 'Pneus Paquet Levis',
 		);
+		
+$nomMenu = array(
+		'accueil' => 'Accueil',
+		'demandeEmploi' => 'Demande d\'emploi',
+		'demandeCommandite' => 'Demande de commandite'
+		);
 
 
 ?>
